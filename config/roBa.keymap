@@ -41,14 +41,19 @@
             key-positions = <24 25>;
         };
 
-        mission_control_left {
+        descktop_move_left {
             bindings = <&kp LC(LEFT_ARROW)>;
-            key-positions = <18 19>;
+            key-positions = <18 41 17>;
         };
 
-        mission_control_right {
+        descktop_move_right {
             bindings = <&kp LC(RIGHT)>;
-            key-positions = <20 19>;
+            key-positions = <20 19 41>;
+        };
+
+        mission_control {
+            bindings = <&kp LC(LG(UP_ARROW))>;
+            key-positions = <41 19 18>;
         };
     };
 
@@ -58,6 +63,27 @@
             #binding-cells = <1>;
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
+        };
+
+        mac_password: mac_password {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp J &kp J &kp F &kp J &kp F &kp H &kp G &kp H &kp G &kp ENTER>;
+            label = "MAC_PASSWORD";
+        };
+
+        screenshot: screenshot {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LS(RA(NUMBER_5)))>;
+            label = "SCREENSHOT";
+        };
+
+        master_p: master_p {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SPACE>;
+            label = "MASTER_P";
         };
     };
 
@@ -77,10 +103,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                        &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp DELETE
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                          &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_WIN  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp TAB
+&kp Q             &kp W         &kp E         &kp R                        &kp T                                                          &kp Y                      &kp U  &lt 5 I    &kp O      &kp P
+&mt LEFT_SHIFT A  &kp S         &kp D         &kp F                        &kp G        &screenshot                        &mac_password  &kp H                      &kp J  &kp K      &kp L      &kp DELETE
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                          &master_p      &kp N                      &kp M  &mkp LCLK  &mkp RCLK  &kp SLASH
+&kp LCTRL         &kp LEFT_ALT  &kp LEFT_WIN  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 LANG_ZENKAKUHANKAKU                               &kp TAB
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
