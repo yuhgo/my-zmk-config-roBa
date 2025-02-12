@@ -31,14 +31,19 @@
             key-positions = <18 19>;
         };
 
-        backspace {
+        backspace_left {
             bindings = <&kp BACKSPACE>;
             key-positions = <12 13>;
         };
 
         to_scroll {
             bindings = <&lt 5 LG(SPACE)>;
-            key-positions = <31 32>;
+            key-positions = <31 30>;
+        };
+
+        backspace_right {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <19 20>;
         };
     };
 
