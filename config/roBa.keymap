@@ -96,7 +96,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E             &kp R                        &kp T                                           &kp Y               &kp U  &lt 5 I    &kp O      &kp P
-&mt LEFT_SHIFT A  &kp S         &kp D             &kp F                        &kp G        &presentify      &screenshot       &kp H               &kp J  &kp K      &kp L      &kp DELETE
+&mt LCTRL A       &kp S         &kp D             &kp F                        &kp G        &presentify      &screenshot       &kp H               &kp J  &kp K      &kp L      &kp DELETE
 &mt LEFT_SHIFT Z  &kp X         &kp C             &kp V                        &kp B        &mac_p           &master_p         &kp N               &kp M  &mkp LCLK  &mkp RCLK  &mt LEFT_SHIFT SLASH
 &kp LCTRL         &kp LEFT_ALT  &mt LEFT_WIN ESC  &lt_to_layer_0 1 INT_HENKAN  &lt 2 SPACE  &mo 3            &lt 5 LEFT_SHIFT  &lt 5 INT_MUHENKAN                               &kp TAB
             >;
