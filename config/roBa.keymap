@@ -67,7 +67,7 @@
         mac_p: mac_p {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(LS(N5)) &kp J &kp F &kp J &kp F &kp H &kp G &kp H &kp G>;
+            bindings = <&kp J &kp F &kp J &kp F &kp H &kp G &kp H &kp G>;
             label = "MAC_P";
         };
 
