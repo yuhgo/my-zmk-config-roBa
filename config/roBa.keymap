@@ -65,13 +65,6 @@
             label = "TO_LAYER_0";
         };
 
-        mac_password: mac_password {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp J &kp J &kp F &kp J &kp F &kp H &kp G &kp H &kp G &kp ENTER>;
-            label = "MAC_PASSWORD";
-        };
-
         screenshot: screenshot {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -84,6 +77,13 @@
             #binding-cells = <0>;
             bindings = <&kp SPACE>;
             label = "MASTER_P";
+        };
+
+        mac_p: mac_p {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LS(N5))>;
+            label = "MAC_P";
         };
     };
 
@@ -103,10 +103,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                        &kp T                                                          &kp Y                      &kp U  &lt 5 I    &kp O      &kp P
-&mt LEFT_SHIFT A  &kp S         &kp D         &kp F                        &kp G        &screenshot                        &mac_password  &kp H                      &kp J  &kp K      &kp L      &kp DELETE
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                          &master_p      &kp N                      &kp M  &mkp LCLK  &mkp RCLK  &kp SLASH
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_WIN  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 LANG_ZENKAKUHANKAKU                               &kp TAB
+&kp Q             &kp W         &kp E             &kp R                        &kp T                                                          &kp Y                      &kp U  &lt 5 I    &kp O      &kp P
+&mt LEFT_SHIFT A  &kp S         &kp D             &kp F                        &kp G        &kp BACKSPACE                      &kp ENTER      &kp H                      &kp J  &kp K      &kp L      &kp DELETE
+&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V                        &kp B        &mac_p                             &master_p      &kp N                      &kp M  &mkp LCLK  &mkp RCLK  &mt LEFT_SHIFT SLASH
+&kp LCTRL         &kp LEFT_ALT  &mt LEFT_WIN ESC  &lt_to_layer_0 1 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 LANG_ZENKAKUHANKAKU                               &kp TAB
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
