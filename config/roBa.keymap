@@ -4,6 +4,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define MOUSE 4
 #define SCROLL 5
@@ -155,10 +156,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans        &trans        &trans            &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LC(LEFT)  &kp LC(DOWN)  &kp LC(UP_ARROW)  &kp LC(RIGHT)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &none         &mkp LCLK         &mkp RCLK      &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                       &trans
+&trans  &trans  &trans        &trans          &trans                      &trans        &trans        &trans            &trans         &trans
+&trans  &trans  &msc SCRL_UP  &msc SCRL_DOWN  &trans  &trans      &trans  &kp LC(LEFT)  &kp LC(DOWN)  &kp LC(UP_ARROW)  &kp LC(RIGHT)  &trans
+&trans  &trans  &trans        &trans          &trans  &trans      &trans  &trans        &none         &mkp LCLK         &mkp RCLK      &trans
+&trans  &trans  &trans        &trans          &trans  &trans      &trans  &trans                                                       &trans
             >;
         };
 
