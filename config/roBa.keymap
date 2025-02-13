@@ -1,4 +1,4 @@
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 2000
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 4000
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
@@ -12,6 +12,11 @@
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
+};
+
+&mwh {
+    time-to-max-speed-ms = <40>;
+    acceleration-multiplier = <8>;
 };
 
 / {
