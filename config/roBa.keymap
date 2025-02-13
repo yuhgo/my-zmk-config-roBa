@@ -16,12 +16,10 @@
 
 &mmv {
     time-to-max-speed-ms = <40>;
-    acceleration-multiplier = <8>;
 };
 
 &msc {
     time-to-max-speed-ms = <40>;
-    acceleration-multiplier = <8>;
 };
 
 
