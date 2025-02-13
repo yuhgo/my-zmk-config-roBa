@@ -117,10 +117,10 @@
 
         Symbol {
             bindings = <
-&trans            &trans         &kp LS(NUMBER_1)  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS                                       &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &none   &none   &kp LS(NUMBER_5)
-&kp LS(NUMBER_2)  &kp SEMICOLON  &kp LS(NUMBER_4)  &trans            &trans                &kp LS(NUMBER_7)      &kp BACKSLASH  &kp LS(NUMBER_3)       &none              &none   &none   &none
-&kp LEFT_SHIFT    &trans         &kp COLON         &kp COMMA         &kp MINUS             &kp ASTRK             &kp GRAVE      &kp EQUAL              &kp PERIOD         &trans  &trans  &none
-&trans            &trans         &trans            &trans            &trans                &trans                &trans         &kp LG(SPACE)                                             &none
+&kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LS(NUMBER_1)  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS                                       &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &none   &none   &kp LS(NUMBER_5)
+&kp LS(NUMBER_2)  &kp SEMICOLON      &kp LS(NUMBER_4)  &trans            &trans                &kp LS(NUMBER_7)      &kp BACKSLASH  &kp LS(NUMBER_3)       &none              &none   &none   &none
+&kp LEFT_SHIFT    &trans             &kp COLON         &kp COMMA         &kp MINUS             &kp ASTRK             &kp GRAVE      &kp EQUAL              &kp PERIOD         &trans  &trans  &none
+&trans            &trans             &trans            &trans            &trans                &trans                &trans         &kp LG(SPACE)                                             &none
             >;
         };
 
