@@ -1,5 +1,4 @@
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // デフォルト: 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // デフォルト: 10
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1000
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
