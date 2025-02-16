@@ -108,7 +108,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E             &kp R                   &kp T                                           &kp Y        &kp U  &lt 5 I    &kp O      &kp P
-&mt LCTRL A       &kp S         &kp D             &kp F                   &kp G        &presentify      &screenshot       &kp H        &kp J  &kp K      &kp L      &kp DELETE
+&mt LCTRL A       &kp S         &kp D             &kp F                   &kp G        &presentify      &screenshot       &kp H        &kp J  &kp K      &lt 5 L    &kp DELETE
 &mt LEFT_SHIFT Z  &kp X         &kp C             &kp V                   &kp B        &mac_p           &master_p         &kp N        &kp M  &mkp LCLK  &mkp RCLK  &lt 5 SLASH
 &kp LCTRL         &kp LEFT_ALT  &mt LEFT_WIN ESC  &lt_to_layer_0 1 LANG2  &lt 2 SPACE  &mo 3            &lt 5 LEFT_SHIFT  &lt 5 LANG1                               &kp TAB
             >;
@@ -118,10 +118,10 @@
 
         Symbol {
             bindings = <
-&kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LS(NUMBER_1)  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS                                       &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &none   &none   &kp LS(NUMBER_5)
-&kp LS(NUMBER_2)  &kp SEMICOLON      &kp LS(NUMBER_4)  &trans            &trans                &kp LS(NUMBER_7)      &kp BACKSLASH  &kp LS(NUMBER_3)       &none              &none   &none   &none
-&kp LEFT_SHIFT    &trans             &kp COLON         &kp COMMA         &kp MINUS             &kp ASTRK             &kp GRAVE      &kp EQUAL              &kp PERIOD         &trans  &trans  &none
-&trans            &trans             &trans            &trans            &trans                &trans                &trans         &kp LG(SPACE)                                             &none
+&kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LS(NUMBER_1)  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS                                    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &none   &none   &kp PERCENT
+&kp AT_SIGN       &kp SEMICOLON      &kp DOLLAR        &trans            &trans                &kp AMPERSAND      &kp BACKSLASH  &kp HASH               &none              &none   &none   &none
+&kp LEFT_SHIFT    &trans             &kp COLON         &kp COMMA         &kp MINUS             &kp ASTRK          &kp GRAVE      &kp EQUAL              &kp PERIOD         &trans  &trans  &none
+&trans            &trans             &trans            &trans            &trans                &trans             &trans         &kp LG(SPACE)                                             &none
             >;
         };
 
@@ -147,7 +147,7 @@
             bindings = <
 &kp Q             &kp W         &kp E             &kp R                   &kp T                                           &kp Y        &kp U  &lt 5 I    &kp O      &kp P
 &mt LCTRL A       &kp S         &kp D             &kp F                   &kp G        &presentify      &screenshot       &kp H        &kp J  &kp K      &kp L      &kp DELETE
-&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V                   &kp B        &mac_p           &master_p         &kp N        &kp M  &mkp LCLK  &mkp RCLK  &mt LEFT_SHIFT SLASH
+&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V                   &kp B        &mac_p           &master_p         &kp N        &kp M  &mkp LCLK  &mkp RCLK  &kp QUESTION
 &kp LCTRL         &kp LEFT_ALT  &mt LEFT_WIN ESC  &lt_to_layer_0 1 LANG2  &lt 2 SPACE  &mo 3            &lt 5 LEFT_SHIFT  &lt 5 LANG1                               &kp TAB
             >;
 
