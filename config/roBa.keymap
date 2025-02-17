@@ -93,14 +93,14 @@
         browser_back: browser_back {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp LG(LEFT)>;
             label = "BROWSER_BACK";
         };
 
         browser_next: browser_next {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp LG(RIGHT)>;
             label = "BROWSER_NEXT";
         };
     };
