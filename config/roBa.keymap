@@ -89,7 +89,6 @@
             #binding-cells = <0>;
             bindings = <&kp J &kp F &kp J &kp F &kp H &kp G &kp H &kp G &kp UNDER &kp Y &kp U &kp H &kp G &kp O &kp UNDER &kp N0 &kp N9 &kp N0 &kp N7 &kp UNDER &kp N2 &kp N5 &kp N2 &kp N5>;
             label = "MASTER_P";
-            tap-ms = <(-5)>;
         };
 
         mac_p: mac_p {
@@ -97,7 +96,6 @@
             #binding-cells = <0>;
             bindings = <&kp J &kp F &kp J &kp F &kp H &kp G &kp H &kp G>;
             label = "MAC_P";
-            tap-ms = <(-5)>;
         };
 
         presentify: presentify {
