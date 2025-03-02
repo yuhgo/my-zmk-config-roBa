@@ -216,7 +216,7 @@
 
         WINDOW_7 {
             bindings = <
-&trans             &trans             &kp LS(LA(LG(E)))  &trans             &trans                                            &trans  &trans  &trans  &trans  &trans
+&trans             &trans             &kp LS(LA(LG(E)))  &kp LS(LA(LG(R)))  &trans                                            &trans  &trans  &trans  &trans  &trans
 &kp LS(LG(LA(A)))  &kp LS(LA(LG(S)))  &kp LS(LA(LG(D)))  &kp LS(LA(LG(F)))  &kp LS(LA(LG(G)))  &kp LS(LA(LG(H)))      &trans  &trans  &trans  &trans  &trans  &trans
 &trans             &trans             &trans             &trans             &trans             &trans                 &trans  &trans  &trans  &trans  &trans  &trans
 &trans             &trans             &trans             &trans             &trans             &trans                 &trans  &trans                          &trans
