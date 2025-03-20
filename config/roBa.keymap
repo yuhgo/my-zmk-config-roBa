@@ -142,6 +142,22 @@
             tapping-term-ms = <200>;
             bindings = <&kp Z>, <&kp Z>;
         };
+
+        layer3_backspace_td: layer3_backspace_td {
+            compatible = "zmk,behavior-tap-dance";
+            label = "LAYER3_BACKSPACE_TD";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&lt 3 NONE>, <&kp BACKSPACE>;
+        };
+
+        tab_enter_td: tab_enter_td {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAB_ENTER_TD";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp TAB>, <&kp ENTER>;
+        };
     };
 
     keymap {
