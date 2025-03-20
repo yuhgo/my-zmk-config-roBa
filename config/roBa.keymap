@@ -4,7 +4,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
 
 #define MOUSE 4
 #define SCROLL 5
@@ -165,10 +164,10 @@
 
         default_0 {
             bindings = <
-&kp Q             &kp W         &kp E             &kp R        &kp T                                        &kp Y        &kp U  &kp I      &kp O      &kp P
-&mt LCTRL A       &kp S         &kp D             &kp F        &kp G        &kp BACKSPACE        &kp ENTER  &kp H        &kp J  &kp K      &lt 5 L    &kp DELETE
-&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V        &kp B        &kp TAB              &trans     &kp N        &kp M  &mkp LCLK  &mkp RCLK  &mt LEFT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_ALT  &mt LEFT_WIN ESC  &lt 1 LANG2  &lt 2 SPACE  &lt 3 BACKSPACE      &lt 3 TAB  &lt 6 LANG1                               &kp TAB
+&kp Q             &kp W         &kp E             &kp R        &kp T                                                 &kp Y        &kp U  &kp I      &kp O      &kp P
+&mt LCTRL A       &kp S         &kp D             &kp F        &kp G        &kp BACKSPACE             &kp ENTER      &kp H        &kp J  &kp K      &lt 5 L    &kp DELETE
+&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V        &kp B        &kp TAB                   &trans         &kp N        &kp M  &mkp LCLK  &mkp RCLK  &mt LEFT_SHIFT SLASH
+&kp LCTRL         &kp LEFT_ALT  &mt LEFT_WIN ESC  &lt 1 LANG2  &lt 2 SPACE  &layer3_backspace_td      &tab_enter_td  &lt 6 LANG1                               &kp TAB
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
