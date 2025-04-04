@@ -164,10 +164,10 @@
 
         default_0 {
             bindings = <
-&kp Q             &kp W         &kp E             &kp R        &kp T                                                 &kp Y        &kp U  &kp I      &kp O      &kp P
-&mt LCTRL A       &kp S         &kp D             &kp F        &kp G        &kp BACKSPACE             &kp ENTER      &kp H        &kp J  &kp K      &lt 5 L    &kp DELETE
-&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V        &kp B        &kp TAB                   &trans         &kp N        &kp M  &mkp LCLK  &mkp RCLK  &mt LEFT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_ALT  &mt LEFT_WIN ESC  &lt 1 LANG2  &lt 2 SPACE  &layer3_backspace_td      &tab_enter_td  &lt 6 LANG1                               &kp TAB
+&kp Q             &kp W         &kp E             &kp R        &kp T                                          &kp Y        &kp U  &kp I      &kp O      &kp P
+&mt LCTRL A       &kp S         &kp D             &kp F        &kp G        &kp BACKSPACE      &kp ENTER      &kp H        &kp J  &kp K      &lt 5 L    &kp RETURN
+&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V        &kp B        &kp TAB            &trans         &kp N        &kp M  &mkp LCLK  &mkp RCLK  &mt LEFT_SHIFT SLASH
+&kp LCTRL         &kp LEFT_ALT  &mt LEFT_WIN ESC  &lt 1 LANG2  &lt 2 SPACE  &lt 3 DELETE       &kp BACKSPACE  &lt 6 LANG1                               &kp TAB
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -202,10 +202,10 @@
 
         MOUSE_4 {
             bindings = <
-&kp Q             &kp W         &kp E             &kp R                   &kp T                                             &kp Y        &kp U  &kp I      &kp O      &kp P
-&mt LCTRL A       &kp S         &kp D             &kp F                   &kp G        &kp BACKSPACE      &kp ENTER         &kp H        &kp J  &kp K      &kp L      &kp DELETE
-&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V                   &kp B        &kp TAB            &trans            &kp N        &kp M  &mkp LCLK  &mkp RCLK  &kp QUESTION
-&kp LCTRL         &kp LEFT_ALT  &mt LEFT_WIN ESC  &lt_to_layer_0 1 LANG2  &lt 2 SPACE  &mo 3              &lt 5 LEFT_SHIFT  &lt 5 LANG1                               &kp TAB
+&trans  &trans  &trans  &trans  &trans                      &trans       &trans  &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans       &trans  &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans       &trans  &mkp LCLK  &mkp RCLK  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &lt 5 LANG1                                &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
