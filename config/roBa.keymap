@@ -41,6 +41,16 @@
             bindings = <&mo 7>;
             key-positions = <6 7 8>;
         };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <18 19>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <12 13>;
+        };
     };
 
     macros {
