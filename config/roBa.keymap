@@ -18,6 +18,11 @@
 
 &msc { time-to-max-speed-ms = <40>; };
 
+&lt {
+    quick-tap-ms = <300>;
+    flavor = "balanced";
+};
+
 / {
     combos {
         compatible = "zmk,combos";
