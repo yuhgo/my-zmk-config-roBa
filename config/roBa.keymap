@@ -15,8 +15,6 @@
 
 &msc { time-to-max-speed-ms = <40>; };
 
-&lt { flavor = "hold-preferred"; };
-
 / {
     combos {
         compatible = "zmk,combos";
