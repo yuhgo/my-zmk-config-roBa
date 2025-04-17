@@ -9,19 +9,13 @@
 #define SCROLL 5
 #define NUM 6
 
-&mt {
-    flavor = "balanced";
-    quick-tap-ms = <200>;
-};
+&mt { flavor = "balanced"; };
 
 &mmv { time-to-max-speed-ms = <40>; };
 
 &msc { time-to-max-speed-ms = <40>; };
 
-&lt {
-    quick-tap-ms = <200>;
-    flavor = "balanced";
-};
+&lt { flavor = "balanced"; };
 
 / {
     combos {
