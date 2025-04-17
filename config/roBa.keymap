@@ -15,7 +15,7 @@
 
 &msc { time-to-max-speed-ms = <40>; };
 
-&lt { flavor = "balanced"; };
+&lt { flavor = "hold-preferred"; };
 
 / {
     combos {
