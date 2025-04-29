@@ -15,6 +15,9 @@
 
 &msc { time-to-max-speed-ms = <40>; };
 
+&lt {
+};
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -39,14 +42,29 @@
             key-positions = <6 7 8>;
         };
 
-        enter {
-            bindings = <&kp ENTER>;
-            key-positions = <18 19>;
+        to-6-layer {
+            bindings = <&mo 6>;
+            key-positions = <38 37>;
         };
 
-        backspace {
-            bindings = <&kp BACKSPACE>;
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <2 3>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <6 7>;
+        };
+
+        asterisk {
+            bindings = <&kp ASTERISK>;
             key-positions = <12 13>;
+        };
+
+        slash {
+            bindings = <&kp SLASH>;
+            key-positions = <18 19>;
         };
     };
 
