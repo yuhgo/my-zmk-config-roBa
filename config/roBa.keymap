@@ -66,6 +66,16 @@
             bindings = <&kp SLASH>;
             key-positions = <18 19>;
         };
+
+        en {
+            bindings = <&kp LANG2>;
+            key-positions = <23 24>;
+        };
+
+        ja {
+            bindings = <&kp LANG1>;
+            key-positions = <31 32>;
+        };
     };
 
     macros {
